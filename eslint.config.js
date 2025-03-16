@@ -38,6 +38,8 @@ export default [
       }
     },
     rules: {
+      'no-undef': 'off',
+      'vue/multi-word-component-names': 'off'
       // 在这里追加 vue 规则
     }
   },
