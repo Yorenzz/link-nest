@@ -6,6 +6,6 @@
 
 <style scoped lang="scss">
 .register-page {
-  width: 100%;
+  flex: 1;
 }
 </style>

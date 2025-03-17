@@ -6,7 +6,7 @@ import eslint from '@eslint/js'
 
 export default [
   {
-    ignores: ['node_modules', 'dist', 'public']
+    ignores: ['node_modules', 'dist', 'public', '*.d.ts']
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
