@@ -6,7 +6,7 @@ import eslint from '@eslint/js'
 
 export default [
   {
-    ignores: ['node_modules', 'dist', 'public', '*.d.ts', 'src/components/ui', 'src/lib', 'tailwind.config.js']
+    ignores: ['node_modules', 'dist', 'public', '*.d.ts', 'src/components/ui/**', 'src/lib/**', 'tailwind.config.js']
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,

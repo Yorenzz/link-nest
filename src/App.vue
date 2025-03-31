@@ -1,7 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Toaster } from '@/components/ui/toast'
+</script>
 
 <template>
   <router-view></router-view>
+  <Toaster />
 </template>
 
 <style scoped></style>

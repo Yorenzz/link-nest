@@ -15,6 +15,7 @@
     "commit": "git add . && git-cz"
   },
   "dependencies": {
+    "@internationalized/date": "^3.7.0",
     "@vee-validate/zod": "^4.15.0",
     "@vueuse/core": "^13.0.0",
     "class-variance-authority": "^0.7.1",
